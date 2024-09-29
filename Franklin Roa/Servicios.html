@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+   <style>
+    body {
+    font-family: 'Intel', sans-serif; /* Fuente para párrafos */
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin padding */
+}
+
+/* ==============================
+   Estilo para el Menú de Navegación
+   ============================== */
+nav {
+    background-color: #000000; /* Fondo negro */
+    padding: 15px 30px; /* Padding más amplio */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+nav ul {
+    list-style: none; /* Quitar viñetas */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin padding */
+    display: flex; /* Flexbox para alinear elementos */
+    justify-content: flex-end; /* Alinear a la derecha */
+}
+
+nav ul li {
+    margin-left: 30px; /* Mayor espacio entre elementos */
+}
+
+nav a {
+    color: #ffffff; /* Color blanco para el texto */
+    text-decoration: none; /* Sin subrayado */
+    font-family: 'Brasika', sans-serif; /* Fuente para enlaces */
+    font-weight: bold; /* Negrita para enlaces */
+    transition: color 0.3s, transform 0.3s; /* Transición suave para color y transformación */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Color dorado al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+    /* ==============================
+   Estilos para Servicios
+   ============================== */
+#services {
+    padding: 40px 20px; /* Espaciado más amplio */
+    background-color: #f9f9f9; /* Fondo gris claro para la sección */
+}
+
+.services-container {
+    display: flex; /* Usar flexbox para alinear los servicios */
+    justify-content: space-between; /* Espacio entre servicios */
+    flex-wrap: wrap; /* Permitir que los servicios se envuelvan */
+    max-width: 1200px; /* Ancho máximo de la sección */
+    margin: auto; /* Centrar la sección */
+}
+
+.service {
+    background-color: #ffffff; /* Fondo blanco para cada servicio */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px; /* Bordes más redondeados */
+    padding: 25px; /* Espaciado interno mayor */
+    margin: 15px; /* Espacio entre servicios */
+    flex: 1; /* Hacer que los servicios ocupen espacio igual */
+    min-width: 280px; /* Ancho mínimo para los servicios */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    transition: transform 0.3s; /* Transición suave para el efecto hover */
+}
+
+.service:hover {
+    transform: scale(1.02); /* Efecto de aumento al pasar el ratón */
+}
+
+.service img {
+    width: 100%; /* Ajustar la imagen para que ocupe el ancho del contenedor */
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Mantener la proporción y recortar si es necesario */
+    border-radius: 5px; /* Bordes redondeados en imágenes */
+}
+
+/* ==============================
+   Estilos para el Pie de Página
+   ============================== */
+footer {
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    text-align: center; /* Centrar texto */
+    padding: 15px 0; /* Espaciado vertical */
+    position: relative; /* Posición relativa para el footer */
+    bottom: 0; /* Alinear al fondo */
+    width: 100%; /* Ancho completo */
+    margin-top: 40px; /* Espacio superior */
+}
+
+footer p {
+    margin: 0; /* Sin márgenes */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}
+
+/* Enlaces en el footer */
+footer a {
+    color: #ffcc00; /* Color dorado para enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave para color */
+}
+
+footer a:hover {
+    color: #ffffff; /* Cambiar color al pasar el ratón */
+}
+
+   </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Sobre mi.html">Acerca de mí</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="Contacto.html">Contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <section id="services">
+        <h2>Servicios</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Desarrollo de Páginas Web (HTML y CSS)</h3>
+                <p>Creamos sitios web personalizados, atractivos y completamente optimizados para móviles. Desde landing pages hasta plataformas más avanzadas, nos aseguramos de que tu sitio sea una herramienta eficaz para tu negocio.</p>
+                <p><strong>Incluye:</strong></p>
+                <ul>
+                    <li>Diseño responsivo.</li>
+                    <li>Optimización para SEO.</li>
+                    <li>Integración de herramientas de análisis.</li>
+                </ul>
+                <img src="Imagenes/Ima6.jpg" alt="Desarrollo Web">
+            </div>
+
+            <div class="service">
+                <h3>Marketing Digital</h3>
+                <p>Te ayudamos a conectar con tu audiencia a través de estrategias de marketing digital efectivas. Diseñamos y gestionamos campañas de publicidad online, marketing de contenidos y social media.</p>
+                <p><strong>Servicios específicos:</strong></p>
+                <ul>
+                    <li>Gestión de redes sociales.</li>
+                    <li>Campañas de publicidad en Google y redes.</li>
+                    <li>Email marketing.</li>
+                </ul>
+                <img src="Imagenes/Ima11.jpg" alt="Marketing Digital">
+            </div>
+
+            <div class="service">
+                <h3>Neuromarketing</h3>
+                <p>Aplicamos principios psicológicos para mejorar tus estrategias de venta, asegurando que tu mensaje conecte de manera más profunda con tus clientes.</p>
+                <p><strong>Estrategias incluidas:</strong></p>
+                <ul>
+                    <li>Diseño de contenido visual persuasivo.</li>
+                    <li>Análisis de la experiencia del usuario.</li>
+                    <li>Optimización de landing pages.</li>
+                    <li>Consultoría en Branding Personal.</li>
+                </ul>
+                <p>Te ayudamos a construir y posicionar tu marca personal en el entorno digital, desde la creación de tu identidad visual hasta estrategias para destacarte en redes sociales.</p>
+                <img src="Imagenes/Ima10.jpg" alt="Neuromarketing">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Franklin Roa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

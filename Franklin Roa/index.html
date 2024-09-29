@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        /* ==============================
+   Estilos Generales
+   ============================== */
+body {
+    font-family: 'Intel', sans-serif; /* Fuente general */
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+/* ==============================
+   Estilo para el Menú de Navegación
+   ============================== */
+nav {
+    background-color: #000000; /* Fondo negro */
+    padding: 15px 20px; /* Espaciado superior/inferior y lateral */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+nav ul {
+    list-style: none; /* Quitar puntos de la lista */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
+    display: flex; /* Usar flexbox para alinear los elementos */
+    justify-content: flex-end; /* Alinear elementos a la derecha */
+}
+
+nav ul li {
+    margin-left: 30px; /* Espacio entre elementos del menú */
+}
+
+nav a {
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
+    font-family: 'Brasika', sans-serif; /* Fuente para los enlaces */
+    font-weight: bold; /* Negrita para los enlaces */
+    transition: color 0.3s, border-bottom 0.3s; /* Transiciones suaves */
+    padding: 5px 0; /* Espaciado vertical alrededor del enlace */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Cambiar color al pasar el ratón */
+    border-bottom: 2px solid #ffcc00; /* Línea debajo del enlace en hover */
+}
+
+/* ==============================
+   Estilo para el Encabezado
+   ============================== */
+header {
+    padding: 40px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    background-color: #f8f8f8; /* Fondo gris claro */
+    border-bottom: 2px solid #ddd; /* Borde inferior */
+}
+
+header h1 {
+    font-family: 'Brasika', sans-serif; /* Título con fuente Brasika */
+    margin: 0; /* Sin margen */
+    font-size: 2.5em; /* Tamaño del título */
+}
+
+header p {
+    max-width: 800px; /* Ancho máximo del párrafo */
+    margin: 10px auto; /* Centrar el párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* ==============================
+   Estilo para la Imagen Principal
+   ============================== */
+.images {
+    text-align: center; /* Centrar la imagen */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.main-image {
+    width: 100%; /* Ancho completo */
+    max-width: 800px; /* Ancho máximo */
+    height: auto; /* Altura automática para mantener proporciones */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* ==============================
+   Estilo para la Sección de Llamada a la Acción
+   ============================== */
+#cta {
+    padding: 20px; /* Espaciado interior */
+    text-align: center; /* Centrar el texto */
+    background-color: #ffcc00; /* Fondo amarillo */
+    color: #000000; /* Texto negro */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 20px auto; /* Margen automático para centrar */
+}
+
+#cta h2 {
+    margin: 0; /* Sin margen */
+}
+
+.cta-button {
+    display: inline-block; /* Botón en línea */
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interior del botón */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold; /* Negrita */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.cta-button:hover {
+    background-color: #ffcc00; /* Cambiar a amarillo al pasar el ratón */
+    color: #000000; /* Cambiar texto a negro al pasar el ratón */
+}
+
+/* ==============================
+   Estilo para el Footer
+   ============================== */
+footer {
+    text-align: center; /* Centrar el texto */
+    padding: 15px 0; /* Espaciado interior */
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    position: relative;
+    bottom: 0; /* Fijar en la parte inferior */
+    width: 100%; /* Ancho completo */
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Sobre mi.html">Acerca de mí</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="Contacto.html">Contáctanos</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Encabezado -->
+    <header>
+        <h1>Bienvenido a Franklin Roa</h1>
+        <p>Innovación en Marketing y Diseño Web</p>
+        <p>Potencia tu presencia digital con estrategias basadas en psicología y neuromarketing, combinadas con un diseño web profesional y personalizado.</p>
+        <p>Transformamos tu visión en resultados concretos, creando experiencias que conectan con tu audiencia.</p>
+    </header>
+
+    <!-- Sección de llamada a la acción -->
+    <section id="cta">
+        <h2>¿Listo para llevar tu negocio al siguiente nivel?</h2>
+        <p>Contáctanos hoy mismo y descubre cómo podemos ayudarte.</p>
+        <a href="Contacto.html" class="cta-button">¡Contáctanos!</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Franklin Roa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
